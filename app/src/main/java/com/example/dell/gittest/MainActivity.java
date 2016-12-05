@@ -9,10 +9,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Log.d("eiei", "onCreate: ");
+        Log.d("eiei", "onCreate: ");
         Toast.makeText(getApplicationContext(), "eiei", Toast.LENGTH_SHORT).show();
     }
 }
